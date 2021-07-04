@@ -4,10 +4,12 @@ body{
 
 h1{
     font-size: 50px;}
+
+h2{font-size: 40px;}
 .color{color: orange;}
 
-section{display: flex;
-        margin-bottom: 200px;}
+.flexible-container{display: flex;
+        margin-bottom: 150px;}
 
 
 .half-width{
@@ -17,6 +19,31 @@ section{display: flex;
 .half-width img{width: 60%;}
 
 #font-size{font-size: 19px;}
+
+.experience-item{
+    width:110%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    box-shadow: 10px 10px 50px orange;
+}
+
+#mama{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+
+#nana{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+
+.experience{background-image: url(images/exp-bg.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;}
 
 .link-button{text-decoration: none;
             background-image: linear-gradient(orange,tomato);
@@ -30,7 +57,6 @@ section{display: flex;
         background-position: bottom right;}
 
 .top-banner{background-image: url(images/top-banner.png);
-            background-repeat: no-repeat;
-           
-
-
+            background-repeat: no-repeat;}
+            
+         
